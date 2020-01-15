@@ -9,7 +9,7 @@ Cross Browse
   + engine 종류
   
       <img src="http://webberstd.cdn1.cafe24.com/img/css-2/cross-engine.png" width="340px" height="400px" title="브라우저의 엔진 도표" alt="브라우저의 엔진 도표"></img><br/>
-  + CSS 초기화
+* CSS 초기화
     - concept
       - 브라우저가 자체적으로 CSS 스타일을 가지고 있는데 엔진마다 조금씩 다르다.
       - 브라우저에서 기본적으로 들어가는 margin, padding 때문에 혼동이 올 수도 있음
@@ -33,7 +33,8 @@ Cross Browse
           ```
           <p>동해 물과 <strong>백두산</strong>이 마르고 닳도록...</p>
           ```
-- IE의 cross browsing
+          
+* IE의 cross browsing
   - IE는 사용자가 윈도우 업데이트 해야 업데이트가 되기 때문에 IE 버전 별로도 크로스 브라우징 해야함.
   - IE Hack
     - 스타일을 줄 때 특수문자를 넣어서, 다른 브라우저들에서는 인식을 못하지만, IE의 특정 버전의 브라우저에서는 인식하게 하는 방법
