@@ -19,6 +19,16 @@ Cross Browse
         - 대형 사이트에서 부분적 개편할 때 개편이 아직 안된 페이지들(잘못된 초기화 CSS를 그대로 사용하고 있는 페이지)로 인해 잘못된 초기화 CSS를 또 다시 계속 써야만 하는 상황이 올 수도 있음.
         - 처음 공부하는 입장이라면, 한번 초기화 없이 CSS를 작성해서 크로스 브라우징 해보는 것도 좋은 방법
       - 속성의 상속을 무시하게 만들지 말 것
+        - ex: font-size를 다음과 같이 선언하고 p의 font-size를 바꿔줬을 때, span도 부모의 속성을 따라가기 바라지만 CSS 초기화때문에 안된다.
+
+        ```
+        * {
+          margin: 0;
+          padding: 0;
+          font-size: 12px;
+          font-family: 돋움, 'dotum', arial, helvetica, sans-serif;
+        }
+        ```
       
     
 
