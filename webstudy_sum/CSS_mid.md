@@ -57,7 +57,7 @@ Cross Browse
 
 CSS debugging, 개발자 도구
 -------------
-<img src="developer_tool.png" width="500px" height="200px" title="개발자도구_요소선택" alt="개발자도구_요소선택"></img><br/>
+<img src="developer_tool.png" width="600px" height="360px" title="개발자도구_요소선택" alt="개발자도구_요소선택"></img><br/>
 
 - 개발자 도구에 들어가서 표시된 부분 누르고 보이는 페이지에서 원하는 부분 누르면 관련 정보가 나온다.
 
