@@ -9,8 +9,9 @@ Cross Browse
   + engine 종류
   
       <img src="http://webberstd.cdn1.cafe24.com/img/css-2/cross-engine.png" width="340px" height="400px" title="브라우저의 엔진 도표" alt="브라우저의 엔진 도표"></img><br/>
+      
 #### CSS 초기화
-    - concept
+   * concept
       - 브라우저가 자체적으로 CSS 스타일을 가지고 있는데 엔진마다 조금씩 다르다.
       - 브라우저에서 기본적으로 들어가는 margin, padding 때문에 혼동이 올 수도 있음
       - CSS 초기화: 작업의 편리성을 위해 차이나는 부분들에 미리 스타일을 주는 방식
