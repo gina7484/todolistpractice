@@ -21,14 +21,30 @@ Cross Browse
       - 속성의 상속을 무시하게 만들지 말 것
         - ex: font-size를 다음과 같이 선언하고 p의 font-size를 바꿔줬을 때, span도 부모의 속성을 따라가기 바라지만 CSS 초기화때문에 안된다.
 
-        ```
-        * {
-          margin: 0;
-          padding: 0;
-          font-size: 12px;
-          font-family: 돋움, 'dotum', arial, helvetica, sans-serif;
-        }
-        ```
+          ```
+          * {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            font-family: 돋움, 'dotum', arial, helvetica, sans-serif;
+          }
+          ```
+          ```
+          <p>동해 물과 <strong>백두산</strong>이 마르고 닳도록...</p>
+          ```
+- IE의 cross browsing
+  - IE는 사용자가 윈도우 업데이트 해야 업데이트가 되기 때문에 IE 버전 별로도 크로스 브라우징 해야함.
+  - IE Hack
+    - 스타일을 줄 때 특수문자를 넣어서, 다른 브라우저들에서는 인식을 못하지만, IE의 특정 버전의 브라우저에서는 인식하게 하는 방법
+      ```
+      div {
+        color: red;
+        *color: blue; /* IE7이하 용 */
+        _color : green; /* IE6 용 */
+      }
+      ```
+  - IE용 주석 이용 (conditional comments)
+        
       
     
 
