@@ -7,6 +7,7 @@ Cross Browse
   + 다른 브라우저라도 같은 엔진을 사용한다면 거의 비슷하게 보여진다.
   + Cross Browsing할 때 각 브라우저들을 엔진 별로 확인하자
   + engine 종류
+  
       <img src="http://webberstd.cdn1.cafe24.com/img/css-2/cross-engine.png" width="340px" height="400px" title="브라우저의 엔진 도표" alt="브라우저의 엔진 도표"></img><br/>
   + CSS 초기화
     - concept
