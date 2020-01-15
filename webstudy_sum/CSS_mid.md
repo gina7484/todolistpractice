@@ -8,8 +8,8 @@ Cross Browse
   + **Cross Browsing 1: 각 브라우저들을 엔진 별로 확인하자**
   + engine 종류
     - Trident
-    마이크로소프트의 레이아웃 엔진
-    IE가 사용
+      마이크로소프트의 레이아웃 엔진
+      IE가 사용
     - geko
     파이어 폭스
     - webkit
