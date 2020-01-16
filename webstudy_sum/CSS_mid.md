@@ -56,7 +56,7 @@ CSS 중급 내용 정리
 <br/>
 
 
-[2]CSS debugging, 개발자 도구
+[2] CSS debugging, 개발자 도구
 -------------
 <img src="developer_tool.png" width="600px" height="360px" title="개발자도구_요소선택" alt="개발자도구_요소선택"></img><br/>
 
@@ -80,7 +80,7 @@ CSS 중급 내용 정리
 
 [5] display & visibility
 -------------
-#### display 속성
+#### 5-1> display 속성
   ```
   div {
     display: inline-block;
@@ -98,7 +98,7 @@ CSS 중급 내용 정리
     - 주로 javascript와 함께 동적인 페이지 구현시 활용된다. 
     - 탭이나 메뉴 등에서 내용을 보이거나 감추거나 할 때 쓰임. 
 
-#### visibility 속성
+#### 5-2> visibility 속성
   - visible : 기본 값. 요소를 보여준다
   - hidden: 요소를 보여주지 X
     - display: none와의 차이점
