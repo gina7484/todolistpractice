@@ -1,6 +1,6 @@
 CSS 중급 내용 정리
 =============
-1.Cross Browse
+[1] Cross Browse
 -------------
 #### Layout engine(렌더링 엔진)
   + 브라우저의 엔진이다. 브라우저를 실질적으로 렌더링해준다.
@@ -56,7 +56,7 @@ CSS 중급 내용 정리
 <br/>
 
 
-2.CSS debugging, 개발자 도구
+[2]CSS debugging, 개발자 도구
 -------------
 <img src="developer_tool.png" width="600px" height="360px" title="개발자도구_요소선택" alt="개발자도구_요소선택"></img><br/>
 
@@ -66,15 +66,19 @@ CSS 중급 내용 정리
 -'style.css:8'과 같은 부분을 클릭하면 CSS파일 원본 소스를 보여주어, 해당 부분에서 소스를 수정할 경우, 웹 브라우저도 실시간으로 변화되어 표시됩니다. (파이어 폭스에서는 스타일 편집기라는 탭으로 존재하며, IE에서는 아직 실시간 편집을 지원하지 않습니다.) 이런 부분은 CSS를 실시간으로 보며 소스를 작성할 수 있기 때문에, 초보자 분들은 사용해 보시는 것도 괜찮을 것 같습니다. 다만, 이 역시 임시적인 편집으로, 해당 CSS를 별도로 저장하지 않는다면 새로 고침 시 모두 편집 이전으로 돌아가니, 주의 하시기 바랍니다.
 - 박스 모델을 통해서 이 요소의 너비와 높이, 또한 내부와 외부의 여백, 테두리 선의 굵기 등을 파악할 수 있음
 
-3.CSS selector 2
+<br/>
+
+[3] CSS selector 2
 -------------
 
+<br/>
 
-4.다중 CSS style sheet & 우선순위
+[4] 다중 CSS style sheet & 우선순위
 -------------
 
+<br/>
 
-5.display & visibility
+[5] display & visibility
 -------------
 #### display 속성
   ```
@@ -103,8 +107,9 @@ CSS 중급 내용 정리
   - collapse : table 요소들에서만 줄 수 있는 값.
     - 테이블의 전체적인 레이아웃이 깨지지 않도록, display:none 또는 visibility:hidden을 자동으로 적용.
 
+<br/>
 
-6.overflow, float, clear
+[6] overflow, float, clear
 -------------
 #### overflow
 - 안의 콘텐츠가 박스를 벗어날 때 어떻게 처리할지 결정
@@ -126,10 +131,13 @@ CSS 중급 내용 정리
 - float를 해제시킴으로써 줄 바꿈 되어 구역을 새롭게 시작
 - 속성값들: none, left, right, both, inherit
 
-7.float 레이아웃
+<br/>
+
+[7] float 레이아웃
 -------------
 
+<br/>
 
-8.table style
+[8] table style
 -------------
 
