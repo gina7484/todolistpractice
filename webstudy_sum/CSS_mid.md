@@ -75,7 +75,15 @@ CSS selector 2
 
 display & visibility
 -------------
-
+* display 속성
+  - block
+  - inline
+  - inline-block
+    - 요소 자체로 줄 바꿈이 일어나지는 않음 (inline 요소의 특성)
+    - height와 width 값을 가질 수 있다 (block 요소의 특성)
+    - 줄 바꿈을 하지 않은 상태로 버튼을 만들 때 유용하게 쓰임
+    - [IE 7 이하에서 구현하는 방식](http://webberstudy.com/html-css/css-2/display-and-visibility-property/) 3번째 슬라이드 참고
+    
 
 overflow, float, clear
 -------------
