@@ -1,35 +1,88 @@
 body { /*selector : this selector means that we will give style to body tag*/
-  /*background-color, color : we call these things 'Property' */
-  background-color: #333333;
-  background-image: url("https://image.freepik.com/free-vector/technology-background-with-blue-abstract-shapes_23-2148219982.jpg");
-  background-repeat: repeat;
-  color: white; /*can use color code #ffffff instead of 'white' */
-}
-
-h1{
-    color: white;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: normal; /*25px*/
-    font-style: normal;
-    font-weight: bold;
-}
-img {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 258px;
-    height: 359px;
-}
-.name h2{
-    font-family: 'Nanum Gothic', sans-serif;
-    margin-bottom: 1px;
-}
-.name p{ /*giving style to 'p' tag*/
-    color: white;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 15px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #fff;
-    margin-top: 1px;
+    /*background-color, color : we call these things 'Property' */
+    background-color: #333333;
+    background-image: url("https://image.freepik.com/free-vector/technology-background-with-blue-abstract-shapes_23-2148219982.jpg");
+    background-repeat: repeat;
+    color: white; /*can use color code #ffffff instead of 'white' */
+    margin-bottom:0px;
+  }
+  
+  #float-unit2 {
+    background-color: rgba(0, 0, 0, 0.4);
     width: 50%;
-}
+    margin-left: 30px;
+    padding: 20px;
+  }
+
+  .float-frame{
+      overflow: hidden;
+      padding-left: 15%;
+  }
+
+  .float-unit{
+      float:left;
+  }
+  
+  h1{
+      color: white;
+      font-family: 'Indie Flower', cursive;
+      text-align: center;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: bold;
+  }
+  img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 258px;
+      height: 359px;
+  }
+  .name h2{
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 30px;
+      margin-top: 0px;
+      margin-bottom: 1px;
+  }
+  .name p{ /*giving style to 'p' tag*/
+      color: white;
+      font-family: 'Nanum Gothic', cursive;
+      font-size: 20px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-bottom-color: #fff;
+      margin-top: 1px;
+      margin-bottom: 0px;
+      width: 95%;
+  }
+
+  h3{
+    margin-top: 15px;  
+    margin-bottom: 3px;
+  }
+
+  .education ul, .club-activity p, .Courses p, .Contact p, .Curr-Study-areas p{
+      margin-top: 0px;
+  }
+
+  .club-activity p, .Courses p, .Contact p, .Curr-Study-areas p{
+    padding-left: 25px;
+    margin-bottom: 0px;
+  }
+
+  .club-activity .guardian-url{
+    font-size: 10px;
+  }
+
+  .club-activity a{
+    color: yellow;
+  }
+
+  .related-sites{
+      background-color: black;
+      margin-top: 3%;
+      padding: 3% 20%;
+  }
+
+  .related-sites p{
+    margin-bottom: 0px;
+  }
