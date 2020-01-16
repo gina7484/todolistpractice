@@ -2,7 +2,7 @@ CSS 중급 내용 정리
 =============
 [1] Cross Browse
 -------------
-#### Layout engine(렌더링 엔진)
+#### 1-1> Layout engine(렌더링 엔진)
   + 브라우저의 엔진이다. 브라우저를 실질적으로 렌더링해준다.
   + 다른 브라우저라도 같은 엔진을 사용한다면 거의 비슷하게 보여진다.
   + Cross Browsing할 때 각 브라우저들을 엔진 별로 확인하자
@@ -11,7 +11,7 @@ CSS 중급 내용 정리
       <img src="http://webberstd.cdn1.cafe24.com/img/css-2/cross-engine.png" width="340px" height="400px" title="브라우저의 엔진 도표" alt="브라우저의 엔진 도표"></img><br/>
       
       
-#### CSS 초기화
+#### 1-2> CSS 초기화
   * concept
     - 브라우저가 자체적으로 CSS 스타일을 가지고 있는데 엔진마다 조금씩 다르다.
     - 브라우저에서 기본적으로 들어가는 margin, padding 때문에 혼동이 올 수도 있음
@@ -36,7 +36,7 @@ CSS 중급 내용 정리
           <p>동해 물과 <strong>백두산</strong>이 마르고 닳도록...</p>
           ```
           
-#### IE의 cross browsing
+#### 1-3> IE의 cross browsing
   - IE는 사용자가 윈도우 업데이트 해야 업데이트가 되기 때문에 IE 버전 별로도 크로스 브라우징 해야함.
   - IE Hack
     - 스타일을 줄 때 특수문자를 넣어서, 다른 브라우저들에서는 인식을 못하지만, IE의 특정 버전의 브라우저에서는 인식하게 하는 방법
@@ -51,7 +51,7 @@ CSS 중급 내용 정리
   
 
 
-#### 메타를 이용한 IE 모드
+#### 1-4> 메타를 이용한 IE 모드
     
 <br/>
 
@@ -111,7 +111,7 @@ CSS 중급 내용 정리
 
 [6] overflow, float, clear
 -------------
-#### overflow
+#### 6-1> overflow
 - 안의 콘텐츠가 박스를 벗어날 때 어떻게 처리할지 결정
 - 속성값들
   - visible: 기본 값으로, 박스를 벗어나는 콘텐츠가 그대로 보여집니다.
@@ -121,12 +121,12 @@ CSS 중급 내용 정리
   - inherit: 부모의 속성 값을 물려 받습니다.
 - [overflow 속성값 결과](http://webberstudy.com/html-css/css-2/overflow-float-clear/) 2번째 슬라이드 참고
 
-#### float 속성
+#### 6-2> float 속성
 - 왼쪽이나 오른쪽으로 float 속성을 적용한 요소의 다음 요소들(float나 clear를 주지 않은 요소) 안의 텍스트(또는 인라인 요소)들은 적용한 요소 옆에 위치하게 됩니다.
 - 참고 그림: [float를 이용한 본문의 요소 삽입](http://webberstd.cdn1.cafe24.com/img/css-2/clear-float.png)
 - 속성값들: none, left, right, inherit
 
-#### clear 속성
+#### 6-3> clear 속성
 - float을 사용해서 이미지 등을 본문에 넣었다가, 이미지 옆에서가 아닌, 이미지 아래에서 새로운 섹션을 시작하고 싶을 때 사용
 - float를 해제시킴으로써 줄 바꿈 되어 구역을 새롭게 시작
 - 속성값들: none, left, right, both, inherit
@@ -135,7 +135,7 @@ CSS 중급 내용 정리
 
 [7] float 레이아웃
 -------------
-
+#### 7-1>  
 <br/>
 
 [8] table style
