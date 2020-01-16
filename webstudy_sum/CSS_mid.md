@@ -75,19 +75,54 @@ CSS selector 2
 
 display & visibility
 -------------
-* display 속성
+#### display 속성
+  ```
+  div {
+    display: inline-block;
+  }
+  ```
   - block
   - inline
   - inline-block
     - 요소 자체로 줄 바꿈이 일어나지는 않음 (inline 요소의 특성)
     - height와 width 값을 가질 수 있다 (block 요소의 특성)
     - 줄 바꿈을 하지 않은 상태로 버튼을 만들 때 유용하게 쓰임
-    - [IE 7 이하에서 구현하는 방식](http://webberstudy.com/html-css/css-2/display-and-visibility-property/) 3번째 슬라이드 참고
-    
+    - IE 7 이하에서 구현하는 방식: [3번째 슬라이드](http://webberstudy.com/html-css/css-2/display-and-visibility-property/) 참고
+  - none
+    - 요소를 보여주지 않는다. 
+    - 주로 javascript와 함께 동적인 페이지 구현시 활용된다. 
+    - 탭이나 메뉴 등에서 내용을 보이거나 감추거나 할 때 쓰임. 
+
+#### visibility 
+  - visible : 기본 값. 요소를 보여준다
+  - hidden: 요소를 보여주지 X
+    - display: none와의 차이점
+      - display:none : 해당 요소가 흔적도 없이 사라짐
+      - visibility:hidden : 해당 요소의 영역을 남겨 놓는다.
+  - collapse : table 요소들에서만 줄 수 있는 값.
+    - 테이블의 전체적인 레이아웃이 깨지지 않도록, display:none 또는 visibility:hidden을 자동으로 적용.
 
 overflow, float, clear
 -------------
+#### overflow
+- 안의 콘텐츠가 박스를 벗어날 때 어떻게 처리할지 결정
+- 속성값들
+  - visible: 기본 값으로, 박스를 벗어나는 콘텐츠가 그대로 보여집니다.
+  - scroll: 우측에 스크롤 바를 노출하여, 스크롤 바를 통해 콘텐츠를 확인할 수 있도록 합니다.
+  - hidden: 벗어나는 콘텐츠를 모두 숨겨버립니다.
+  - auto: scroll 속성 값은 스크롤 바가 항상 노출 되지만, auto 속성 값은 콘텐츠가 박스를 벗어날 때에만 스크롤 바를 노출합니다.
+  - inherit: 부모의 속성 값을 물려 받습니다.
+- [overflow 속성값 결과](http://webberstudy.com/html-css/css-2/overflow-float-clear/) 2번째 슬라이드 참고
 
+#### float 속성
+- 왼쪽이나 오른쪽으로 float 속성을 적용한 요소의 다음 요소들(float나 clear를 주지 않은 요소) 안의 텍스트(또는 인라인 요소)들은 적용한 요소 옆에 위치하게 됩니다.
+- 참고 그림: [float를 이용한 본문의 요소 삽입](http://webberstd.cdn1.cafe24.com/img/css-2/clear-float.png)
+- 속성값들: none, left, right, inherit
+
+#### clear 속성
+- float을 사용해서 이미지 등을 본문에 넣었다가, 이미지 옆에서가 아닌, 이미지 아래에서 새로운 섹션을 시작하고 싶을 때 사용
+- float를 해제시킴으로써 줄 바꿈 되어 구역을 새롭게 시작
+- 속성값들: none, left, right, both, inherit
 
 float 레이아웃
 -------------
