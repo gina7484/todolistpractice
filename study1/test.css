@@ -1,9 +1,10 @@
 body { /*selector : this selector means that we will give style to body tag*/
   /*background-color, color : we call these things 'Property' */
-  background-color:#333333;
+  background-color: #333333;
   background-image: url("https://image.freepik.com/free-vector/technology-background-with-blue-abstract-shapes_23-2148219982.jpg");
  	background-repeat: no-repeat;
-  color:white; /*can use color code #ffffff instead of 'white' */
+  background-position: right bottom;
+  color: white; /*can use color code #ffffff instead of 'white' */
 }
 
 h1{
