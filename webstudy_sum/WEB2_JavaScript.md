@@ -27,5 +27,29 @@ onclick: 경고창 뜨게 하고 싶을 때 alert값을 준다
   onchange: 뭔가를 입력할 때      <br/>
   onkeydown: key 하나라도 적을 때 <br/>
   
+#### console
+f12 > console <br/>
+파일 만들지 않고도 JavsScrpit 실행 가능 <br/>
+
+#### 변수
+var (변수이름) = (변수값);
+<br/>
+
+#### 제어할 태그 선택하기
+우리가 하고 싶은 것: night button 눌렀을 때 body의 style이 변하는 것! <br/>
+-> 결국 우리는 body 태그를 제어하고 싶은 것! <br/>
+하는 방법: <br/>
+1. 클릭했을 때 변하게 하고 싶은 거기 때문에 onclick 속성을 사용한다. <br/>
+2. 속성값으로는 JavaScript 내용이 와야한다. document.querySelector('body')를 통해서 body 태그를 선택한다. <br/>
+만약에 id나 class로 선택하고 싶으면 '#tag'랑 '.class'같은 형식으로 'body'를 대체해주면 된다.
+3. <pre><code>{.style.backgroundColor = 'black';}</code></pre> 형태로 CSS 속성들을 추가해준다.
+
+```
+  <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+  ">
+  ```
+  
   
   
