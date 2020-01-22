@@ -4,3 +4,22 @@
   document.write(1+1);
 </script>
 ```
+
+```
+<input type="button" value="hi" onclick="alert('hi')">
+<input type="text" onchange="alert('changed')">
+<input type="text" onkeydown="alert('key down!')">
+```
+##### 해당 코드 실행 결과: https://opentutorials.org/course/3085/18782
+##### <버튼 만들때>
+input 태그
+value: 버튼에 적히는 내용
+onclick: 경고창 뜨게 하고 싶을 때 alert값을 준다
+
+##### <event>
+  웹 브라우저에서 일어나는 일들
+  이 중 기념할 만한 것들을 따로 정의하는데 onclock, onchange, onkeydown 같은 것들이 event다.
+  ex)
+  onclick: 클릭할 때
+  onchange: 뭔가를 입력할 때
+  onkeydown: key 하나라도 적을 때
