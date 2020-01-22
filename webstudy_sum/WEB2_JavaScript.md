@@ -5,11 +5,13 @@
 </script>
 ```
 <br/>
+
 ```
 <input type="button" value="hi" onclick="alert('hi')">
 <input type="text" onchange="alert('changed')">
 <input type="text" onkeydown="alert('key down!')">
 ```
+
 ##### 해당 코드 실행 결과: https://opentutorials.org/course/3085/18782
 ##### 버튼 만들때
 input 태그
