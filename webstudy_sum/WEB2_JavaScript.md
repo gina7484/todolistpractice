@@ -4,7 +4,7 @@
   document.write(1+1);
 </script>
 ```
-
+<br/>
 ```
 <input type="button" value="hi" onclick="alert('hi')">
 <input type="text" onchange="alert('changed')">
@@ -17,9 +17,13 @@ value: 버튼에 적히는 내용
 onclick: 경고창 뜨게 하고 싶을 때 alert값을 준다
 
 ##### event
-  웹 브라우저에서 일어나는 일들
-  이 중 기념할 만한 것들을 따로 정의하는데 onclock, onchange, onkeydown 같은 것들이 event다.
+  웹 브라우저에서 일어나는 일들<br/>
+  이 중 기념할 만한 것들을 따로 정의하는데 onclock, onchange, onkeydown 같은 것들이 event다.<br/>
+  event의 속성값으로는 javaScript가 들어간다.<br/>
   ex)
-  onclick: 클릭할 때
-  onchange: 뭔가를 입력할 때
-  onkeydown: key 하나라도 적을 때
+  onclick: 클릭할 때              <br/>
+  onchange: 뭔가를 입력할 때      <br/>
+  onkeydown: key 하나라도 적을 때 <br/>
+  
+  
+  
