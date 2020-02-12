@@ -1,0 +1,69 @@
+
+.listName{
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+h1{
+    background-color: cadetblue;
+    height: 5em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+ul#todolist{
+    list-style-type: disc;
+    width: 50%;
+    margin-top: 0px;
+}
+
+#todolist li{
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    margin-bottom: 4px;
+}
+
+#todolist li span{
+    font-size: 1.3em;
+    color: red;
+}
+
+ul#donelist{
+    list-style-type: circle;
+    width: 50%;
+    margin-top: 0px;
+}
+
+#donelist li{
+    border-bottom: 1px dashed #ccc;
+    padding: 5px 10px;
+}
+
+#donelist li span{
+    font-weight: 200;
+    padding-left: 10px;
+    vertical-align: middle;
+    cursor: default;
+    text-decoration: line-through;
+    color:black;
+}
+
+.fa-edit{
+    float: right;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.fa-trash-alt{
+    float: right;
+    padding: 5px;
+    visibility: hidden;
+    color: red;
+}
+
+#bar{
+    background-color: cadetblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
