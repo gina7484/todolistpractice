@@ -1,0 +1,42 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>해야할 일</title> <!--appears on the tab-->
+        <link href="TDstyle.css" type="text/css" rel="stylesheet" />  
+        <script src="https://kit.fontawesome.com/0a2a180c78.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1 id="todolistHeader">Gina's To do List</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <hr>
+                    <div id="bar">
+                        <p id="enter">Write what to do and Press Enter!</p>
+
+                        <p class="inputarea">
+                            <input type="text" id="inputText" placeholder="what to do"/>
+                        </p>
+                    </div>
+
+                    <p class="listName">To do</p>
+
+                    <ul id="todolist"></ul>
+                </div>
+                <div class="col-sm-6">
+                    <hr>
+                    <p class="listName">Done</p>
+
+                    <ul id="donelist"></ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
